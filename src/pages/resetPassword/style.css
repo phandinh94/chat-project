@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#resetPassword {
+    display:flex;
+    background: url("./nen.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height: 100vh;
+}
+
+#resetPassword .reset-pass{
+    width: 50vh;
+    margin: auto;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    background-color: bisque;
+    box-shadow: 5px;
+    border-radius: 5px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+#resetPassword .reset-pass h4{
+    padding-left: 12vh;
+    font-size: 30px;
+}
+#resetPassword  .reset-pass .title-reset .area-reset{
+    margin: auto;
+    width: 44vh;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 11px;
+    
+}
+#resetPassword  .reset-pass .title-reset .area-reset .reset-title{
+    padding: 5px;
+    font-size: 20px;
+}
+#resetPassword  .reset-pass .title-reset .area-reset .reset-title .reset-input{
+    padding:5px 0px 5px 5px;
+    width: 40vh;
+    font-size: 18px ;
+    border-radius: 5px;
+}
+#resetPassword  .reset-pass .title-reset .area-reset .reset-title .reset-button{
+    width: 40vh;
+    padding: 1vh;
+    border-radius: 5px;
+    font-size: 18px ;
+    color: black;
+    background-color: rgb(240, 31, 38);
+}
+#resetPassword .reset-pass .title-reset .change-reset{
+    width: 44vh;
+    margin: 3vh;
+    padding: 1vh;
+    font-size: 18px;
+    border: 1px solid grey;
+    background-color: rgb(234, 212, 212);
+    border-radius: 5px;
+}
+#resetPassword .reset-pass .title-reset .area-reset #error-reset{
+    color: brown;
+    margin-left: 5px;
+}
+

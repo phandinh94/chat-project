@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chat .chat-logo{
+    background-color: coral;
+    padding: 3vh;
+}
+.chat .chat-logo h4{
+    margin-left: 50%;
+    font-size: 25px;
+}
+.chat .chat-body{
+    display: flex;
+}
+.chat .chat-body .chat-new{
+    font-size: 25px;
+    border: 1px solid rgb(48, 47, 47);
+    background-color: rgb(212, 232, 225);
+    padding: 2vh;
+}
+.chat .chat-body .chat-start{
+    width: 80vh;
+    border: 1px solid rgb(34, 32, 32);
+   
+}
+.chat .chat-body .chat-start .chat-name{
+    background-color: rgb(212, 232, 225);
+    border-bottom: 1px solid grey;
+    font-size: 25px;
+    padding: 2vh;
+    padding-left: 20vh;
+}
+.chat .chat-body .chat-start .chat-background{
+    height: 70vh;
+    background-color: rgb(253, 253, 251);
+}
+.chat .chat-body .chat-start .chat-text{
+    border-top: 1px solid grey;
+}
+.chat .chat-body .chat-start .chat-text .chat-input{
+    width: 65vh;
+    padding: 2vh;
+    font-size: 20px;
+}
+.chat .chat-body .chat-start .chat-text .chat-send{
+    width: 13.9vh;
+    padding: 2vh;
+    font-size: 20px;
+}

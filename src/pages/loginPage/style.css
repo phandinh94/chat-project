@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#loginPage {
+    display:flex;
+    background: url("./nen.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 120vh; 
+}
+#loginPage  .login{
+    width: 50vh;
+    margin: auto;
+    margin-top: 20%;
+    background-color: bisque;
+    box-shadow: 5px;
+    border-radius: 5px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+#loginPage  .login .img{
+    width: 10px;
+    height: 10px;
+}
+#loginPage  .login h4{
+    padding-left: 12vh;
+    font-size: 30px;
+}
+#loginPage  .login .title .area-login{
+    margin: auto;
+    width: 44vh;
+    border: 1px solid rgb(119, 114, 114);
+    border-radius: 5px;
+    padding: 11px;
+    
+}
+#loginPage  .login .title .area-login .login-title{
+    padding: 5px;
+    font-size: 20px;
+}
+#loginPage  .login .title .area-login .login-title .login-input{
+    padding:5px 0px 5px 5px;
+    width: 40vh;
+    font-size: 18px ;
+    border-radius: 5px;
+}
+#loginPage  .login .title .area-login .login-title .login-button{
+    background-color: rgb(241, 87, 87);
+    width: 40vh;
+    padding: 1vh;
+    border-radius: 5px;
+    font-size: 18px ;
+}
+#loginPage  .login .title .change{
+    width: 44vh;
+    margin: 3vh;
+    padding: 1vh;
+    font-size: 18px;
+    border: 1px solid grey;
+    background-color: rgb(231, 199, 199);
+    border-radius: 5px;
+}
+#loginPage .login .title .change-pass {
+    font-size: 17px;
+    padding-left: 20vh;
+}
+#loginPage .login .title .area-login #loginEmail-error{ 
+    color: brown;
+    margin-left: 5px;
+}
+#loginPage .login .title .area-login #loginPassword-error{ 
+    color: brown;
+    margin-left: 5px;
+}
